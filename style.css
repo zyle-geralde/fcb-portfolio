@@ -1,0 +1,35 @@
+/* comment */
+*{
+	font-family: "Roboto",sans-serif;
+	color:white;
+}
+h1,p{
+	font-family: "Montserrat",sans-serif;
+}
+#profile{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border-style: dashed;
+	border-width: 10px;
+	border-color: whitesmoke;
+	margin-bottom: 30px;
+
+}
+
+.body{
+	background-color: #9F4A00;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23da9696' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23c49292' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d16f75' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%238b101f' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d92151' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23a95f6a' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d6668c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23b85a79' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23d692b7' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a65d87' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23b262b2' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23891089' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+/* background by SVGBackgrounds.com */
+}
+
+#landing{
+	height: 90vh; /*view height*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
